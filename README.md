@@ -23,3 +23,8 @@ bad accuracy but realised when I indentify a tree i look at its branches/leaves 
 * Inverse RL - it would be an interesting idea to see what reward criteria this method creates and whether it would improve model performance
 * Dynamic wind direction and speed
 * Add the ability to foil, will add further complexity as foiling is dependant on boat velocity being great enough
+
+want to add masking to try and remove background or sky etc
+add stuff for identificing canopy pictures
+better NN with reduced overfitting without reducing accuracy
+
