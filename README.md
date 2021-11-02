@@ -17,14 +17,9 @@ bad accuracy but realised when I indentify a tree i look at its branches/leaves 
 
 
 ## Next Steps:
-* Further work developing the NN to enable better learning.
-* Rather than 3 set actions have a vector space to decide how far to turn the boat left or right
-* Create boat inertia so that the boat doesn't just stop when it is turning
-* Inverse RL - it would be an interesting idea to see what reward criteria this method creates and whether it would improve model performance
-* Dynamic wind direction and speed
-* Add the ability to foil, will add further complexity as foiling is dependant on boat velocity being great enough
+* Further work developing the NN to enable better learning, reducing the overfitting whilst reataining the train set accuracy
+* As seen in the commented out sections of the code I want to try masking to removed backgrounds and the sky to try to focus the image by its bark, currently difficult since barks are such varying colours
+* Add another network focusing on images of the canopy and then combining the percentage results from each network to get a better total accuracy for a combination of a picture of bark and a photo of the canopy
 
-want to add masking to try and remove background or sky etc
-add stuff for identificing canopy pictures
-better NN with reduced overfitting without reducing accuracy
+
 
