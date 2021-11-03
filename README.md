@@ -1,5 +1,7 @@
 # Tensorflow-Simple-Tree-Recognition
-During lockdown with all the extra time I started to redisover nature, expanded my knoweldge about treees and shit. Wanted to try a AI thing on trees in my local woods so chose some of my favourites aswell as having some variety in trees chosen also quite simple in that doesnt do exact species
+During lockdown with all the extra time I was able to spend more of it in nature and develop my knowledge about trees
+
+started to redisover nature, expanded my knoweldge about treees and shit. Wanted to try a AI thing on trees in my local woods so chose some of my favourites aswell as having some variety in trees chosen also quite simple in that doesnt do exact species
 
 TOok some photos to create own dataset 
 
