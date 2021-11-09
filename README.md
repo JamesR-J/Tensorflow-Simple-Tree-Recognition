@@ -5,6 +5,8 @@ started to redisover nature, expanded my knoweldge about treees and shit. Wanted
 
 TOok some photos to create own dataset 
 
+started with Alexnet and tried to get it to work better
+
 Did this in variuous angles, light settings, zoomed in etcetc to try and get some variation in the dataset aswell as variations in tree age
 
 Issues:
