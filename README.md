@@ -21,6 +21,7 @@ bad accuracy but realised when I indentify a tree i look at its branches/leaves 
 
 
 ## Next Steps:
+* Take more photos for the dataset, hopefully this will greatly increase the NN performance
 * Further work developing the NN to enable better learning, reducing the overfitting whilst reataining the train set accuracy
 * As seen in the commented out sections of the code I want to try masking to removed backgrounds and the sky to try to focus the image by its bark, currently difficult since barks are such varying colours
 * Add another network focusing on images of the canopy and then combining the percentage results from each network to get a better total accuracy for a combination of a picture of bark and a photo of the canopy
