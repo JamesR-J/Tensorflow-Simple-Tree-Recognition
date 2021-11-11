@@ -15,7 +15,7 @@ As seen on the confusion matrix in the notebook - redwood, fir, pine, and birch 
 
 Solarized dark             |  Solarized Ocean
 :-------------------------:|:-------------------------:
-![](https://...Dark.png)  |  ![](https://...Ocean.png)
+![](oak_example.jpg)  |  ![](https://...Ocean.png)
 
 
 
