@@ -34,7 +34,7 @@ Douglas Fir Example          |  Coastal Redwood Example   |  Silver Birch Exampl
 :-------------------------:|:-------------------------:|:-------------------------:
 <img src="douglas_fir_example.jpg" width="250">  |  <img src="redwood_example.jpg" width="250"> |  <img src="silver_birch_example.jpg" width="250">
 
-For both the sets of similar trees above they have very different canopies and leaf/needle shapes, which can be a more useful signifier of tree type when combined with the bark structure. Due to this I plan to expand the dataset to photos of the canopies and branches and training these images on another NN. The output for both this NN and the original one would instead be a confidentiality percentage instead of a label, and then combining the results of the two NNs would give a more accurate result.
+For both the sets of similar trees above they have very different canopies and leaf/needle shapes, which can be a more useful signifier of tree type when combined with the bark structure. Due to this I plan to expand the dataset to photos of the canopies and branches and training these images on another NN. The output for both this NN and the original one would be a confidentiality percentage instead of a label, and then combining the results of the two NNs would give a more accurate result.
 
 ## Results 
 
