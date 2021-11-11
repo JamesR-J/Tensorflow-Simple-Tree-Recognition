@@ -60,5 +60,6 @@ The answer to these issues is mainly just gathering more data, so slowly over th
 * Add another network focusing on images of the canopy and then combining the percentage results from each network to get a better total accuracy for a combination of a picture of bark and a photo of the canopy.
 * Create the application in which you can take a photo of a tree in these woods on your phone and it would identify it, with added features to Geo tag the tree for conservation research and with the potential to add notes about it, as well as including the users photos into the dataset and using this larger dataset to increase model accuracy.
 
-
-
+## Libraries:
+* Tensorflow
+* Keras
