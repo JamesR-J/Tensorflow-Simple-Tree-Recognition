@@ -56,7 +56,7 @@ The answer to these issues is mainly just gathering more data, so slowly over th
 ## Next Steps:
 * Take more photos for the dataset, hopefully this will greatly increase the NN performance.
 * Further work developing the NN to enable better learning, reducing the overfitting whilst reataining the train set accuracy.
-* As seen in the commented out sections of the code I want to try masking to removed backgrounds and the sky to try to focus the image by its bark, currently difficult since barks are such varying colours, and the background is also very varied.
+* As seen in the commented out sections of the code I want to try masking to remove backgrounds and the sky to try to focus the image by its bark, currently difficult since barks are such varying colours, and the background is also very varied.
 * Add another network focusing on images of the canopy and then combining the percentage results from each network to get a better total accuracy for a combination of a picture of bark and a photo of the canopy.
 * Create the application in which you can take a photo of a tree in these woods on your phone and it would identify it, with added features to Geo tag the tree for conservation research and with the potential to add notes about it, as well as including the users photos into the dataset and using these larger dataset to increase model accuracy.
 
