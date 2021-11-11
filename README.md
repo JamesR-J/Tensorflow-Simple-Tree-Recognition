@@ -9,6 +9,16 @@ started with Alexnet and tried to get it to work better
 
 Did this in variuous angles, light settings, zoomed in etcetc to try and get some variation in the dataset aswell as variations in tree age
 
+As seen on the confusion matrix in the notebook - redwood, fir, pine, and birch are all quite distinctive and easy to recognise, but the NN struggles for oak, larch, pine, and poplar. The NN almost completley accuratley predicts poplars as poplars but it also consistently mislabels oaks and larches as poplars aswell. Looking at photos of these trees it can be quite easy to see why, these have quite similar bark strucutres, whereas something like the redwood is very distinctive in texture as well as colour.
+
+
+
+Solarized dark             |  Solarized Ocean
+:-------------------------:|:-------------------------:
+![](https://...Dark.png)  |  ![](https://...Ocean.png)
+
+
+
 Issues:
 some young to old age trees look super different ie the douglas fir
 no young poplars in woods so this app isnt very general
