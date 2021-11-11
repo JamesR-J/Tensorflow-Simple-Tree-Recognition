@@ -39,16 +39,16 @@ For both the sets of similar trees above they have very different canopies and l
 At the end of the day this NN is nowhere near as accurate as a human identifier, but as talked above when I identify a tree I am taking a lot more in to account than just the bark, therefore the future goal should be adding some more useful indications to help the NN.
 
 ## Current issues with the data:
-* Some species of tree have very varied bark depending on age of the tree eg the douglas fir. Getting a large enough amount of photos of the different stages is very important to accuratley identify this trend.
+* Some species of tree have very varied bark depending on age of the tree eg the douglas fir. Getting a large enough amount of photos of the different stages is very important to accuratley identify this variation.
 
 Young Douglas Fir          |  Older Douglas Fir
 :-------------------------:|:-------------------------:
 <img src="douglas_fir_young.jpg" width="200">  |  <img src="douglas_fir_old.jpg" width="200">
 
 * There aren't any young poplars in the woods so this dataset wouldn't generalise very well to other woods with poplars.
-* With the species chosen there is quite a large variation in tree bark structure so makes it a lot easier, the NN would struggle with similar looking species of tree.
+* With the species chosen there is quite a large variation in tree bark structure which makes it a lot easier, the NN would struggle with similar looking species of tree.
 
-The answer to these issues is mainly just gathering more data so slowly over the coming term time holidays this will be possible. Also these images will be of varying seasons allowing the NN to generalise better.
+The answer to these issues is mainly just gathering more data, so slowly over the coming term time holidays this will be possible. Also these images will be of varying seasons allowing the NN to generalise better.
 
 
 ## Next Steps:
@@ -56,6 +56,7 @@ The answer to these issues is mainly just gathering more data so slowly over the
 * Further work developing the NN to enable better learning, reducing the overfitting whilst reataining the train set accuracy.
 * As seen in the commented out sections of the code I want to try masking to removed backgrounds and the sky to try to focus the image by its bark, currently difficult since barks are such varying colours, and the background is also very varied.
 * Add another network focusing on images of the canopy and then combining the percentage results from each network to get a better total accuracy for a combination of a picture of bark and a photo of the canopy.
+* Create the application in which you can take a photo of a tree in these woods on your phone and it would identify it, with added features to Geo tag the tree for conservation research and with the potential to add notes about it, as well as including the users photos into the dataset and using these larger dataset to increase model accuracy.
 
 
 
