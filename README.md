@@ -38,7 +38,7 @@ For both the sets of similar trees above they have very different canopies and l
 
 ## Results 
 
-With an accuracy on the validation dataset of 62% this NN is nowhere near as accurate as a human identifier, but as talked above when I identify a tree I am taking a lot more in to account than just the bark, therefore the future goal should be adding some more useful identifying features to help the NN.
+With an accuracy on the validation dataset of 62% this NN is nowhere near as accurate as a human identifier, but as talked above when I identify a tree I am taking a lot more in to account than just the bark, therefore the future goal is adding some more useful identifying features to help the NN.
 
 ## Current issues with the data:
 * Some species of tree have very varied bark depending on age of the tree eg the douglas fir. Getting a large enough amount of photos of the different stages is very important to accuratley identify this variation.
