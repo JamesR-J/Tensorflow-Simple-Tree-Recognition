@@ -36,7 +36,9 @@ Douglas Fir Example          |  Coastal Redwood Example   |  Silver Birch Exampl
 
 For both the sets of similar trees above they have very different canopies and leaf/needle shapes, which can be a more useful signifier of tree type when combined with the bark structure. Due to this I plan to expand the dataset to photos of the canopies and branches and training these images on another NN. The output for both this NN and the original one would instead be a confidentiality percentage instead of a label, and then combining the results of the two NNs would give a more accurate result.
 
-At the end of the day this NN is nowhere near as accurate as a human identifier, but as talked above when I identify a tree I am taking a lot more in to account than just the bark, therefore the future goal should be adding some more useful indications to help the NN.
+## Results 
+
+With an accuracy on the validation dataset of 62% this NN is nowhere near as accurate as a human identifier, but as talked above when I identify a tree I am taking a lot more in to account than just the bark, therefore the future goal should be adding some more useful identifying features to help the NN.
 
 ## Current issues with the data:
 * Some species of tree have very varied bark depending on age of the tree eg the douglas fir. Getting a large enough amount of photos of the different stages is very important to accuratley identify this variation.
