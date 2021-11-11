@@ -13,9 +13,25 @@ As seen on the confusion matrix in the notebook - redwood, fir, pine, and birch 
 
 
 
-Solarized dark             |  Solarized Ocean
+Oak Example             |  Poplar Example
 :-------------------------:|:-------------------------:
-![](oak_example.jpg)  |  ![](https://...Ocean.png)
+<img src="oak_example.jpg" width="250">  |  <img src="poplar_example.jpg" width="250">
+
+As you can see the oak and poplar have very similar bark patterns, with the main difference being the thickness and protrusion of the lines on the poplar bark
+
+Pine Example          |  Larch Example
+:-------------------------:|:-------------------------:
+<img src="scots_pine_example.jpg" width="250">  |  <img src="larch_example.jpg" width="250">
+
+Same again here they have very similar bark patterns with the pine having more "stuck on" strips whereas it looks like the larch bark strips are peeling off since each one is a bit convex
+
+After comparing these images it is very easy to see why the NN tripped up on these tree types. Compared to the very distinct other barks below, especially the colour and the "furiness" of the Coastal Redwood:
+
+Douglas Fir Example          |  Coastal Redwood Example   |  Silver Birch Example
+:-------------------------:|:-------------------------:|:-------------------------:
+<img src="douglas_fir_example.jpg" width="250">  |  <img src="redwood_example.jpg" width="250"> |  <img src="silver_birch_example.jpg" width="250">
+
+For both the sets of similar trees above they have very different canopies and leaf/needle shapes, which can be a more useful signifier of tree type when combined with the bark structure aswell. Due to this there is a future plan to expand the dataset to one of the canopies and branches and training these images on another NN. The output for both these NNs would then instead be a XXX percentage instead of a label, and then combining the results of the two NNs would give a more accurate result.
 
 
 
